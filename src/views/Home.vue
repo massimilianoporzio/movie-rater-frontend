@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <h1>Movie Rater</h1>
-<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+     <my-header/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+import MyHeader from "../components/MyHeader";
 
 export default {
   name: 'Home',
   components: {
-    // HelloWorld
+    MyHeader
   }
 }
 </script>
+
+
